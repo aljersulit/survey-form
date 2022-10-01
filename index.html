@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unlimited Chicken Wings Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">Chicken Wings Flavor Survey Form</h1>
+        <p id="description" class="description">
+          Thank you for taking the time to help us improve our products
+        </p>
+      </header>
+
+      <form action="#" id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email" id="email-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter you email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="number" id="number-label">Age(optional)</label>
+          <input
+            type="number"
+            id="number"
+            class="form-control"
+            min="13"
+            max="100"
+            placeholder="Enter your age"
+          />
+        </div>
+        <div class="form-group">
+          <label for="dropdown">Which branch do you live nearest?</label>
+          <select id="dropdown" class="form-control" required>
+            <option disabled selected>(select branch)</option>
+            <option value="Malolos Branch">Malolos Branch(main)</option>
+            <option value="Paombong Branch">Paombong Branch</option>
+            <option value="Guiguinto Branch">Guiguinto Branch</option>
+            <option value="Bocaue Branch">Bocaue Branch</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Would you recommend Unlimited Chicken Wings to a friend?</p>
+          <label>
+            <input
+              type="radio"
+              name="recommendation"
+              value="Definitely"
+              checked
+            />
+            Definitely
+          </label>
+          <label>
+            <input type="radio" name="recommendation" value="Maybe" />
+            Maybe
+          </label>
+          <label>
+            <input type="radio" name="recommendation" value="Not Sure" />
+            Not sure
+          </label>
+        </div>
+        <div class="form-group">
+          <p>What flavors are your favorite? (Check all that apply)</p>
+          <label>
+            <input type="checkbox" value="Garlic Parmesan" />
+            Garlic Parmesan
+          </label>
+          <label>
+            <input type="checkbox" value="Classic Buffalo" />
+            Classic Buffalo
+          </label>
+          <label>
+            <input type="checkbox" value="Hickory Barbecue" />
+            Hickory Barbecue
+          </label>
+          <label>
+            <input type="checkbox" value="Korean Soy Garlic" />
+            Korean Soy Garlic
+          </label>
+          <label>
+            <input type="checkbox" value="Lemon Glazed" />
+            Lemon Glazed
+          </label>
+          <label>
+            <input type="checkbox" value="Teriyaki" />
+            Teriyaki
+          </label>
+          <label>
+            <input type="checkbox" value="Mango Habanero" />
+            Mango Habanero
+          </label>
+          <label>
+            <input type="checkbox" value="Honey Mustard" />
+            Honey Mustard
+          </label>
+          <label>
+            <input type="checkbox" value="Sweet Chili" />
+            Sweet Chili
+          </label>
+          <label>
+            <input type="checkbox" value="Salted Egg" />
+            Salted Egg
+          </label>
+          <label>
+            <input type="checkbox" value="Spiced Maple" />
+            Spiced Maple
+          </label>
+          <label>
+            <input type="checkbox" value="Spicy Korean Barbecue" />
+            Spicy Korean Barbecue
+          </label>
+          <label>
+            <input type="checkbox" value="Korean Sweet & Spicy" />
+            Korean Sweet & Spicy
+          </label>
+          <label>
+            <input type="checkbox" value="Spicy Salted Egg" />
+            Spicy Salted Egg
+          </label>
+        </div>
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea placeholder="Enter comment here..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
