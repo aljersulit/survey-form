@@ -38,4 +38,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Aldrin Sulit](https://github.com/aljersulit)
+- Website - [Aldrin Sulit](https://aljersulit.github.io/myportfolio/)
